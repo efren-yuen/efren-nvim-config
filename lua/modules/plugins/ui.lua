@@ -15,6 +15,10 @@ ui["catppuccin/nvim"] = {
 	name = "catppuccin",
 	config = require("ui.catppuccin"),
 }
+ui["sainnhe/gruvbox-material"] = {
+	lazy = false,
+	name = "gruvbox-material",
+}
 ui["sainnhe/edge"] = {
 	lazy = true,
 	config = require("ui.edge"),

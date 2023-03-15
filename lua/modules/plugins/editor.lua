@@ -1,10 +1,10 @@
 local editor = {}
 
-editor["rainbowhxch/accelerated-jk.nvim"] = {
-	lazy = true,
-	event = "VeryLazy",
-	config = require("editor.accelerated-jk"),
-}
+-- editor["rainbowhxch/accelerated-jk.nvim"] = {
+-- 	lazy = true,
+-- 	event = "VeryLazy",
+-- 	config = require("editor.accelerated-jk"),
+-- }
 editor["rmagatti/auto-session"] = {
 	lazy = true,
 	cmd = { "SaveSession", "RestoreSession", "DeleteSession" },
