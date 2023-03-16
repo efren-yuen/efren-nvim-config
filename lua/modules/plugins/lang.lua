@@ -27,4 +27,11 @@ lang["chrisbra/csv.vim"] = {
 	lazy = true,
 	ft = "csv",
 }
+lang["mfussenegger/nvim-jdtls"] = {
+	lazy = true,
+	ft = "java",
+	config = function()
+		require("lang.jdtls")
+	end,
+}
 return lang

@@ -106,9 +106,14 @@ return function()
 			icons_enabled = true,
 			-- theme = "gruvbox-material",
 			theme = "auto",
-			disabled_filetypes = {},
+			disabled_filetypes = {
+				statusline = {
+					"alpha",
+				},
+			},
 			component_separators = "|",
-			section_separators = { left = "", right = "" },
+			-- section_separators = { left = "", right = "" },
+			section_separators = { left = "", right = "" },
 		},
 		sections = {
 			lualine_a = { { "mode" } },

@@ -32,7 +32,7 @@ return function()
 	null_ls.setup({
 		border = "rounded",
 		debug = false,
-		log_level = "warn",
+		log_level = "error",
 		update_in_insert = false,
 		sources = sources,
 	})

@@ -26,10 +26,23 @@ return function()
 					{ id = "stacks", size = 0.25 },
 					{ id = "watches", size = 0.25 },
 				},
-				size = 40,
+				size = 15,
 				position = "left",
 			},
-			{ elements = { "repl" }, size = 10, position = "bottom" },
+			{
+				elements = {
+					{
+						id = "repl",
+						size = 0.2,
+					},
+					{
+						id = "console",
+						size = 0.8,
+					},
+				},
+				size = 20,
+				position = "bottom",
+			},
 		},
 		-- Requires Nvim version >= 0.8
 		controls = {

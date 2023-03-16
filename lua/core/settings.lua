@@ -64,6 +64,7 @@ settings["lsp_deps"] = {
 	"jsonls",
 	"lua_ls",
 	"pyright",
+	"jdtls",
 	-- "gopls",
 }
 
@@ -81,6 +82,7 @@ settings["null_ls_deps"] = {
 	"shfmt",
 	"stylua",
 	"vint",
+	"google-java-format",
 }
 
 return settings
