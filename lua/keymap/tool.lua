@@ -11,6 +11,9 @@ local plug_map = {
 	["n|gpl"] = map_cr("G pull"):with_noremap():with_silent():with_desc("git: Pull"),
 	["n|<leader>G"] = map_cu("Git"):with_noremap():with_silent():with_desc("git: Open git-fugitive"),
 
+	-- Plugin: aerial.nvim
+	["n|<leader>a"] = map_cr("AerialToggle"):with_noremap():with_silent():with_desc("Outline"),
+
 	-- Plugin: nvim-tree
 	["n|<leader>e"] = map_cr("NvimTreeToggle"):with_noremap():with_silent():with_desc("filetree: Toggle"),
 	["n|<leader>nf"] = map_cr("NvimTreeFindFile"):with_noremap():with_silent():with_desc("filetree: Find file"),

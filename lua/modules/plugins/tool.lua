@@ -64,6 +64,11 @@ tool["gelguy/wilder.nvim"] = {
 	config = require("tool.wilder"),
 	dependencies = { "romgrk/fzy-lua-native" },
 }
+tool["stevearc/aerial.nvim"] = {
+	lazy = true,
+	cmd = { "AerialToggle" },
+	config = require("tool.aerial"),
+}
 
 ----------------------------------------------------------------------
 --                        Telescope Plugins                         --
